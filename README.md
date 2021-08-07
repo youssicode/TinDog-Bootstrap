@@ -26,8 +26,8 @@ Thanks for checking out this front-end coding challenge.
 
 ### Solution's Links
 
-- Solution URL: (https://github.com/youssicode/tinDog-bootstrap)
-- Live Site URL: (https://youssicode.github.io/tinDog-bootstrap/)
+- Solution URL: (https://github.com/youssicode/TinDog-Bootstrap)
+- Live Site URL: (https://youssicode.github.io/TinDog-Bootstrap/)
 
 ## My process
 
