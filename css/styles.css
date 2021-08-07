@@ -131,3 +131,12 @@ em {
     text-align: center;
   }
 }
+@media (max-width: 576px) {
+  .big-heading {
+    font-size: 2.5rem;
+  }
+  .testimonial-text,
+  .cta-heading {
+    font-size: 2rem;
+  }
+}
