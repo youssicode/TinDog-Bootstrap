@@ -1,0 +1,133 @@
+/* font-family: "Montserrat", sans-serif; */
+:root {
+  --main-color: #ff4c68;
+  --main-font: "Montserrat", "sans-serif";
+  --second-font: "ubuntu", "sans-serif";
+}
+body {
+  font-family: var(--main-font);
+  text-align: center;
+}
+.colored-section {
+  background-color: var(--main-color);
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+h2,
+h3,
+h5,
+em {
+  font-weight: bold;
+}
+.big-heading,
+.feature-heading,
+.cta-heading {
+  line-height: 1.5;
+  font-weight: 800;
+}
+.big-heading {
+  font-size: 3.5rem;
+  margin-bottom: 30px;
+}
+.feature-heading {
+  padding-bottom: 4%;
+  font-size: 3rem;
+  font-size: 1.5rem;
+}
+
+.testimonial-text,
+.cta-heading {
+  font-size: 3rem;
+}
+#title {
+  text-align: left;
+}
+.my-container {
+  padding: 3% 15% 7%;
+  overflow: hidden;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: var(--second-font);
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.3rem;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/* features section */
+#features,
+#cta,
+.carousel-item {
+  padding: 7% 15%;
+}
+#features i {
+  /* we can use a personal class inside the <i>s instead */
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+#features i:hover {
+  color: #ff4c68;
+}
+#features p {
+  font-size: 1.2rem;
+  color: #8f8f8f;
+}
+#features .feature-box,
+#footer {
+  padding: 5%;
+}
+
+/* Testimonials Section */
+
+#testimonials img {
+  width: 10%;
+  margin: 20px;
+  border-radius: 50%;
+}
+#press {
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.my-cont {
+  padding: 3%;
+}
+
+#pricing {
+  margin-top: 6rem;
+}
+
+#footer p {
+  color: #8f8f8f;
+}
+
+@media (max-width: 1028px) {
+  .title-img {
+    transform: initial;
+    position: initial;
+  }
+  #title {
+    text-align: center;
+  }
+}
